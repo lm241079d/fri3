@@ -232,7 +232,6 @@
         font-size: 13px;
       }
     }
-    /* --- 追加：大規模地震災害の比較セクションのスタイル --- */
     .disaster-comparison {
       margin-top: 30px;
       margin-bottom: 20px;
@@ -273,6 +272,56 @@
       box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     }
 
+    .info-blocks {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+
+    .info-block {
+      flex: 1 1 180px;
+      min-width: 180px;
+      background: #ffffff;
+      border: 1px solid #dfe6e9;
+      border-radius: 8px;
+      padding: 10px 12px;
+      box-sizing: border-box;
+    }
+
+    .info-block strong {
+      display: block;
+      font-size: 12px;
+      color: #636e72;
+      margin-bottom: 4px;
+    }
+
+    .info-block a {
+      color: #2d6cdf;
+      text-decoration: none;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .info-block a:hover {
+      text-decoration: underline;
+    }
+
+    .description-block {
+      flex-basis: 100%;
+      margin-top: 6px;
+      background: #f8fbff;
+      border-color: #cfe2ff;
+    }
+
+    .description-block p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.7;
+      color: #4b5563;
+    }
+
     .disaster-card h4 {
       margin-top: 0;
       margin-bottom: 12px;
@@ -302,7 +351,7 @@
     .disaster-card li strong {
       display: block;
       color: #718096;
-      font-size: 11px;
+      font-size: 12px;
       text-transform: uppercase;
       margin-bottom: 2px;
     }
